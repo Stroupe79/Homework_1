@@ -10,20 +10,57 @@ body {
 
 header { 
     font-family: 'Georgia', Times, Times New Roman, serif;
-    display: block;
-    height: 100px;
-    background-color: green;
     color: white;
-    margin: 0px 0px 20px 0px;
-    text-shadow: 2px 2px 4px #000000;
-    overflow: auto;
-    
+    text-shadow: 2px 2px 4px #000000;    
 }
 
-.navbar {  
-    display: flex;
+
+.name {
+    display: inline-block;
     width: 100%;
-        height: 100px;
+    background-color: #4aaaa5;
+}
+.logo {
+    display: inline-block;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1em;
+    width: auto;
+}
+.nav {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: #b1adb3;
+    font-weight: normal;
+    
+}
+.nav ul li {
+    display: inline-block;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+.nav ul li a {
+    color: #b1adb3;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+.nav ul li a:hover {
+    color: #4aaaa5;
+}
+
+
+
+/* Old Navbar section
+.navbar {  
+    display: inline-block;
+    width: 100%;
+        height: 50px;
         padding: 0px;
         float: left;
         overflow: hidden;
@@ -42,6 +79,8 @@ header {
         padding: 5px;
         text-shadow: none;
 }
+
+*/
 
 
 .image {
