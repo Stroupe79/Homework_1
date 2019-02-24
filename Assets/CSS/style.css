@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    max-width: 960px;
+    align-content: center;
+    height: 100%;
+    background-image: url("./assests/images/prism.png");
+}
+
+
+
+header { 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: block;
+    height: 100px;
+    background-color: green;
+    color: white;
+    margin: 0px 0px 20px 0px;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+.navbar {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        float: right;
+        overflow: hidden;
+        background-color: #333;
+        
+}
+
+.image {
+    align-content: right;
+    box-shadow: 3px 3px silver;
+    width:500px;
+    float: right;
+                
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+    background-color: rgb(177, 26, 26);
+}
