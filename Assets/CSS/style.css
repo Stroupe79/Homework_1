@@ -82,12 +82,23 @@ header {
 
 */
 
+.box {
+    border-color:grey;
+    border: 2px;
+    border-radius: 25px;
+    padding: 15px;
+    margin: auto;
+    background-color:white;
+    width: 80%;
+    height: 80%;
+    border: 1px red;
+}
 
 .image {
-    align-content: right;
     box-shadow: 3px 3px silver;
     width:500px;
     float: right;
+    padding: 10px;
                 
 }
 
@@ -95,5 +106,6 @@ footer {
     margin-bottom: 100%;
     border-top: 8px solid #4aaaa5;
     flex-shrink: 0;
+    color: white;
     background-color: rgb(177, 26, 26);
 }
