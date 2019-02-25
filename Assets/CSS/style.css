@@ -65,11 +65,13 @@ h1 {
     padding: 15px;
     margin: auto;
     background-color:white;
-    width: 80%;
-    height: 80%;
+    width: 960px;
+    height: 600px;
     border: 3px solid green;
     position: relative;
+    margin-top: 33%;
 }
+
 
 .image {
     box-shadow: 3px 3px silver;
